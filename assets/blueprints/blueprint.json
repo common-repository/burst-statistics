@@ -1,0 +1,15 @@
+{
+  "landingPage": "\/wp-admin\/index.php?page=burst",
+  "steps": [
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/mu-plugins/burst-blueprint.php",
+      "data": "<?php define('BURST_BLUEPRINT', true);"
+    }
+  ]
+}
